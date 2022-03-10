@@ -1,5 +1,5 @@
 from textblob import TextBlob
-words = ["Data Scence", "Jangle"]
+words = ["Scence", "Jangle"]
 corrected_words = []
 for i in words:
     corrected_words.append(TextBlob(i))
